@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFFFFF;
+    margin: 0 0;
+    font-family: 'Lato', 'sans-serif';
+    font-size: 20px;
+
+}
+
+.section-title {
+    font-family: 'Damion', 'cursive';
+    font-size: 35px;
+    text-align: center;
+    background: #C62D28;
+    margin: 0 0;
+    color: white;
+}
+
+.header-banner {
+    width: 100%;
+    height: 130px;
+    background: #C62D28;
+    text-align: center;
+}
+
+.header-banner h1 {
+    color: #F6DD03;
+    font-size: 70px;
+    margin: 0 0;
+    font-family: 'Damion', 'cursive';
+}
+
+.header-banner h2 {
+    margin: 0 0;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar {
+    background: #BC131B;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar-options {
+    margin: 0  0;
+    padding: 0 0 ;
+    display: inline-block;
+}
+
+.navbar-option {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 5px 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-options a {
+    padding: 7px 7px;
+}
+
+.navbar-options a:visited,
+.navbar-options a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-options a:hover {
+    background: white;
+    color: #BC131B;
+    font-weight: bold;
+}
+
+.main-home {
+    background: white;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.main-home p {
+    padding: 10px 20px;
+}
+
+.main-special {
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main-special-item {
+    display: inline-block;
+    background: #C62D28;
+    vertical-align: top;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-special-item ul{
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.main-special-item h3 {
+    margin-bottom: 0;
+}
+
+.three-column {
+    width: 25%;
+    height: 100%;
+    margin: 0 15px;
+}
+
+.two-column {
+    width: 35%;
+    height: 100%;
+    margin: 0 5px;
+}
+.special__price {
+    font-size: 32px;
+    text-align: center;
+}
+
+.special--highlighted {
+    box-shadow: 10px 10px 10px #888888;
+    font-weight: bold;
+}
+
+.special--highlighted > h3 {
+    margin-bottom: 3px;
+}
+
+.special--highlighted > h4 {
+    color: #F6DD03;
+    font-size: 40px;
+    margin: 0 0;
+}
+
+.special--highlighted > ul {
+    margin-top: 3px;
+}
+
+
+.footer-banner {
+    background: #BC131B;
+    color: white;
+    text-align: center;;
+    width: 100%;
+}
+
+.footer-banner__item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-banner__item ul {
+    list-style: none;
+    text-align: left;
+}
+
+
+.footer-banner__item h1 {
+    color: #F6DD03;
+}
